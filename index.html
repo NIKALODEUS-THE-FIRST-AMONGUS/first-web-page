@@ -1,83 +1,71 @@
-<style>
-    .subscribe-button
-    {
-        background-color: rgb(200, 0, 0);
-        color: white;
-        border: none;
-        height: 36px;
-        width: 105px;
-        border-radius: 2px;
-        cursor: pointer;
-        margin-right: 8px;
-        transition: background-color 0.15s,
-        color 0.15s ;
-        vertical-align: top;
-    }
-
-    .subscribe-button:hover{
-        opacity: 0.84;
-    }
-
-    .subscribe-button:active{
-        opacity: 0.5;
-    }
-
-
-    .join-button
-    {
-        background-color: white;
-        border-color: rgb(6, 95, 212);
-        border-style: solid;
-        border-width: 1px;
-        color: rgb(6, 95, 212);
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        border-radius: 2px;
-        cursor: pointer;
-    }
-
-    .join-button:hover{
-        background-color: rgb(6, 95, 212);;
-        color: white;
-    }
-
-    .join-button:active{
-        opacity: 0.7;
-    }
-
-    .tweet-button{
-        background-color: rgb(29, 155, 240);
-        color: white;
-        border: none;
-        font-weight: bold;
-        line-height: 22.5px;
-        border-radius: 20px;
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        cursor: pointer;
-        font-size: 15px;
-        margin-left: 8px;
-        transition: box-shadow 0.15s ;
-    }
-
-    .tweet-button:hover{
-        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15) ;
-
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    .tweet-button:active{
-        opacity: 0.7;
-    }
-</style>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Pandapubgk, a passionate developer interested in automation and IoT.</p>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        
+        <div class="experience-item">
+            <h3>Intern - XYZ Company</h3>
+            <p>📅 June 2024 - August 2024</p>
+            <p>🔹 Worked on automation and IoT-based smart energy systems.</p>
+        </div>
+    
+        <div class="experience-item">
+            <h3>Hackathon Participant -SMART Air Quality Sensor with adafruit cloud monitoring </h3>
+            <p>📅 March 2025</p>
+            <p>🏆Got 2nd RUNNERS UP IN THE Hackathon</p>
+        </div>
+    
+        <div class="experience-item">
+            <h3>Personal Projects</h3>
+            <p>🔹 Built an Air Quality Monitoring System using an MQ135 sensor and ESP12E NodeMCU.</p>
+            <p>🔹 Developed a Fake News Detection AI using Python and Machine Learning.</p>
+        </div>
+    </section>
+    
 
-<button class="subscribe-button">SUBSCRIBE</button>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Python Micro project about Voting system/Polling system</li>
+            <li>Air Quality Monitoring System</li>
+            <li>Fake News Detection AI</li>
+        </ul>
+    </section>
 
+    <section id="contact">
+        <h2>Contact:-</h2>
+        ✉️ Email Me: <a href="mailto:pandapubgk@gmail.com" class="email-link">pandapubgk@gmail.com</a>
+        📞 Call Me: +91 <a href="tel:+916303623082" class="phone-link"><span class="underline">6303623082</span></a>
 
-<button class="join-button">JOIN</button>
+    </section>
 
-
-<button class="tweet-button">Tweet</button>
+    <footer>
+        <p>© 2025 Pandapubgk. All rights reserved.</p>
+    </footer>
+</body>
+</html>
